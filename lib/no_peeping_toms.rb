@@ -4,6 +4,7 @@ require 'active_support/core_ext/string/inflections'
 require 'rails-observers'
 module NoPeepingToms
   extend ActiveSupport::Concern
+  extend ActiveRecord::Observer
 
   included do
     # Define class-level accessors
