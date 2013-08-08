@@ -3,8 +3,7 @@ require 'active_support'
 require 'rails/observers/activerecord/active_record'
 module NoPeepingToms
   extend ActiveSupport::Concern
-  extend ActiveRecord::Observer
-
+  
   included do
     # Define class-level accessors
     cattr_accessor :default_observers_enabled, :observers_enabled
