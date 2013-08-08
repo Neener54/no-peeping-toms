@@ -1,6 +1,5 @@
 require 'active_record'
-require 'active_support/core_ext/class/attribute_accessors'
-require 'active_support/core_ext/string/inflections'
+require 'active_support'
 require 'rails-observers'
 module NoPeepingToms
   extend ActiveSupport::Concern
