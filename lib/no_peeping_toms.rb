@@ -1,6 +1,6 @@
 require 'active_record'
 require 'active_support'
-require 'rails-observers'
+require 'rails/observers/activerecord/active_record'
 module NoPeepingToms
   extend ActiveSupport::Concern
   extend ActiveRecord::Observer
