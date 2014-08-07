@@ -10,7 +10,7 @@ Add to your Gemfile:
 
 and run `bundle install`.
 
-no_peeping_toms >= 2.0.0 only supports on Rails 3.  If you need Rails 2 support, use 1.1.0: `gem install no_peeping_toms -v 1.1.0`
+This fork only works for Rails 4. 
 
 == Usage
 
